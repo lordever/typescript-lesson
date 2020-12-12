@@ -1,3 +1,4 @@
-const element = document.getElementById("app");
+import { NAME } from "./constants/constants";
 
-element.innerHTML = "Application was started";
+const element: HTMLElement = document.getElementById("app");
+element.innerHTML = `Application was started. Hello ${NAME}`
